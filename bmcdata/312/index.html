@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="http://example.org/">
+    <title>
+        
+    BMC Dataset - Video 312
+
+    </title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    
+    <script src="https://kit.fontawesome.com/ca14d5004b.js" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="row container-fluid">
+            
+            <div class="col-md-3">
+                <div class="flex-shrink-0 p-3 bg-white">
+                    <a href="index.html"
+                        class="pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-photo-video fa-4x"></i>
+                            <span class="h1 mx-3">rSVDdpd</span>    
+                        </div>
+                        <p class="text-muted">Robust Singular Value Decomposition using Density Power Divergence</p>
+                    </a>
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <i class="fas fa-home"></i>
+                            <a class="btn btn-display align-items-center rounded collapsed" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        
+                            <div class="sidenav-items">
+                                <button class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#bmc-collapse" aria-expanded="false">
+                                BMC Dataset
+                                </button>
+                                <div class="collapse" id="bmc-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    
+                                        <li><a href="http://example.org/bmcdata/112/" class="link-dark rounded">Video 112</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/122/" class="link-dark rounded">Video 122</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/212/" class="link-dark rounded">Video 212</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/222/" class="link-dark rounded">Video 222</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/312/" class="link-dark rounded">Video 312</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/322/" class="link-dark rounded">Video 322</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/412/" class="link-dark rounded">Video 412</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/422/" class="link-dark rounded">Video 422</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/512/" class="link-dark rounded">Video 512</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/522/" class="link-dark rounded">Video 522</a></li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                            <div class="sidenav-items">
+                                <button class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#uhctd-collapse" aria-expanded="false">
+                                UHCT Dataset
+                                </button>
+                                <div class="collapse" id="uhctd-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    
+                                        <li><a href="http://example.org/uhctd/stream1/" class="link-dark rounded">Stream 1</a></li>
+                                    
+                                        <li><a href="http://example.org/uhctd/stream2/" class="link-dark rounded">Stream 2</a></li>
+                                    
+                                        <li><a href="http://example.org/uhctd/stream3/" class="link-dark rounded">Stream 3</a></li>
+                                    
+                                        <li><a href="http://example.org/uhctd/stream4/" class="link-dark rounded">Stream 4</a></li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                        <li class="border-top my-3"></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div class = "col-md-9 py-5 px-3" style = "position: relative; height: 100vh;">
+                <div class="main-content" style="max-height: 100%; overflow-x: hidden; overflow-y: auto;"> 
+                    
+    <h1>Video 312</h1>
+    <p class="text-muted">This dataset is taken from <a href="http://backgroundmodelschallenge.eu/">Background Models Challenge Dataset</a></p>
+    <p><p><strong>Video 312</strong> from BMC Dataset is similar to Video 112 but with varying illumination due to the movement of the sun.</p>
+</p>
+    <div class="container">
+      <p>Here we demonstrate the original video, the ground truth mask along with the estimated foregrounds from different algorithms.</p>
+<ul>
+<li><strong>SVD:</strong> Singular Value Decomposition of the Video Data Matrix.</li>
+<li><strong>rSVDdpd:</strong> The proposed Robust SVD using Density Power Divergence Algorithm.</li>
+<li><strong>Robust PCA:</strong> Robust Principal Component Analysis. Reference [https://arxiv.org/abs/0912.3599]</li>
+<li><strong>Inexact ALM:</strong> Inexact Augmented Lagrangian Method for Robust PCA. Reference [].</li>
+<li><strong>SRPCP:</strong> Sparse Regularized Principal Component Pursuit. Reference [].</li>
+<li><strong>VB:</strong> Variational Bayesian Method for Robust PCA. Reference [].</li>
+<li><strong>OP:</strong> Outlier Pursuit Algorithm. Reference [].</li>
+<li><strong>GoDec:</strong> Go Decomposition Algorithm. Reference [].</li>
+</ul>
+
+    </div>
+    <hr>
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div class="card">
+            <img src="http://example.org/bmcdata/312/video312.gif" class="card-img-top" alt="Video 312">
+            <div class="card-body">
+              <h5 class="card-title">Original Video</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="http://example.org/bmcdata/312/gt312.gif" class="card-img-top" alt="Ground Truth 312">
+            <div class="card-body">
+              <h5 class="card-title">Ground Truth Foreground Mask</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="http://example.org/bmcdata/312/svd-312.gif" class="card-img-top" alt="svd 312">
+            <div class="card-body">
+              <h5 class="card-title">Foreground estimated via svd</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+            <div class="card">
+              <img src="http://example.org/bmcdata/312/rsvddpd-312.gif" class="card-img-top" alt="rSVDdpd2 312">
+              <div class="card-body">
+                <h5 class="card-title">Foreground estimated via rSVDdpd</h5>
+              </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="http://example.org/bmcdata/312/rpca-312.gif" class="card-img-top" alt="RPCA 312">
+                <div class="card-body">
+                <h5 class="card-title">Foreground estimated via Exact Robust PCA</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="http://example.org/bmcdata/312/ALM-312.gif" class="card-img-top" alt="ALM 312">
+                <div class="card-body">
+                <h5 class="card-title">Foreground estimated via inexact ALM</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="http://example.org/bmcdata/312/SRPCP-312.gif" class="card-img-top" alt="SRPCP 312">
+                <div class="card-body">
+                <h5 class="card-title">Foreground estimated via SRPCP</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="http://example.org/bmcdata/312/VB-312.gif" class="card-img-top" alt="VB 312">
+                <div class="card-body">
+                <h5 class="card-title">Foreground estimated via VB</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="http://example.org/bmcdata/312/OP-312.gif" class="card-img-top" alt="OP 312">
+                <div class="card-body">
+                <h5 class="card-title">Foreground estimated via OP</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="http://example.org/bmcdata/312/GoDec-312.gif" class="card-img-top" alt="GoDec 312">
+                <div class="card-body">
+                <h5 class="card-title">Foreground estimated via GoDec Algorithm</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

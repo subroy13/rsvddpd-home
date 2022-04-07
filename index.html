@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta name="generator" content="Hugo 0.93.3" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <base href="http://example.org/">
+    <title>
+        
+rSVDdpd Homepage
+
+    </title>
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    
+    <script src="https://kit.fontawesome.com/ca14d5004b.js" crossorigin="anonymous"></script>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        <div class="row container-fluid">
+            
+            <div class="col-md-3">
+                <div class="flex-shrink-0 p-3 bg-white">
+                    <a href="index.html"
+                        class="pb-3 mb-3 link-dark text-decoration-none border-bottom">
+                        <div class="d-flex align-items-center mb-3">
+                            <i class="fas fa-photo-video fa-4x"></i>
+                            <span class="h1 mx-3">rSVDdpd</span>    
+                        </div>
+                        <p class="text-muted">Robust Singular Value Decomposition using Density Power Divergence</p>
+                    </a>
+                    <ul class="list-unstyled ps-0">
+                        <li class="mb-1">
+                            <i class="fas fa-home"></i>
+                            <a class="btn btn-display align-items-center rounded collapsed" href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        
+                            <div class="sidenav-items">
+                                <button class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#bmc-collapse" aria-expanded="false">
+                                BMC Dataset
+                                </button>
+                                <div class="collapse" id="bmc-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    
+                                        <li><a href="http://example.org/bmcdata/112/" class="link-dark rounded">Video 112</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/122/" class="link-dark rounded">Video 122</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/212/" class="link-dark rounded">Video 212</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/222/" class="link-dark rounded">Video 222</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/312/" class="link-dark rounded">Video 312</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/322/" class="link-dark rounded">Video 322</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/412/" class="link-dark rounded">Video 412</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/422/" class="link-dark rounded">Video 422</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/512/" class="link-dark rounded">Video 512</a></li>
+                                    
+                                        <li><a href="http://example.org/bmcdata/522/" class="link-dark rounded">Video 522</a></li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                            <div class="sidenav-items">
+                                <button class="btn btn-toggle align-items-center rounded collapsed"
+                                data-bs-toggle="collapse" data-bs-target="#uhctd-collapse" aria-expanded="false">
+                                UHCT Dataset
+                                </button>
+                                <div class="collapse" id="uhctd-collapse">
+                                    <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                                    
+                                        <li><a href="http://example.org/uhctd/stream1/" class="link-dark rounded">Stream 1</a></li>
+                                    
+                                        <li><a href="http://example.org/uhctd/stream2/" class="link-dark rounded">Stream 2</a></li>
+                                    
+                                        <li><a href="http://example.org/uhctd/stream3/" class="link-dark rounded">Stream 3</a></li>
+                                    
+                                        <li><a href="http://example.org/uhctd/stream4/" class="link-dark rounded">Stream 4</a></li>
+                                    
+                                    </ul>
+                                </div>
+                            </div>
+                        
+                        <li class="border-top my-3"></li>
+                    </ul>
+                </div>
+            </div>
+
+            
+            <div class = "col-md-9 py-5 px-3" style = "position: relative; height: 100vh;">
+                <div class="main-content" style="max-height: 100%; overflow-x: hidden; overflow-y: auto;"> 
+                    
+    <div class="header py-3">
+        <h1 class="display-4">rSVDdpd Homepage</h1>
+        <h2>Robust Singular Value Decomposition using Density Power Divergence</h2>
+        <p class="text-muted">This is a supporting webpage for the paper <a href="https://arxiv.org/abs/2109.10680">A New Robust Scalable Singular Value Decomposition Algorithm for Video Surveillance Background Modelling</a></p>
+    </div>
+
+    <hr/>
+
+    <div style="text-align: justify; padding-right: 1.5rem;">
+        <h1 id="extended-abstract">Extended Abstract</h1>
+<p>A basic algorithmic task in automated video surveillance is to separate background and foreground objects. Camera
+tampering, noisy videos, low frame rate, etc., pose difficulties in solving the problem. A general approach that classifies the tampered
+frames, and performs subsequent analysis on the remaining frames after discarding the tampered ones, results in loss of information. If the ultimate goal is to perform background modelling, foreground object detection or motion detection etc., then it would be useful to have an algorithm that robustly performs background foreground separation from video surveillance data. Thus, considerable effort has been expended to solve this problem.</p>
+<ol>
+<li>
+<p>There is a class of statistical background modelling that assumes that the intensity of the pixel values corresponding to the background content is distributed according to a known probability distribution (Gaussian or Mixture of Gaussian). These algorithms are fast, but their performances are not so great.</p>
+</li>
+<li>
+<p>Background modelling based on deep neural network has also been performed. Usually a convolutional neural network with hundreds, thousands or millions of parameters with several layers of connection is built. These are fast for the inference, their performances are great, but they require an enormous amount of data and time for training.</p>
+</li>
+<li>
+<p>Recent approaches towards background modelling assumes a decomposition of the video data into a low rank matrix (corresponding to the background content) and a sparse or noisy matrix (corresponding to the foreground content). Matrix decomposition algorithms like robust PCA have been found to be useful here. However, these algorithms have high computational complexity, and performs a convex optimization problem which do not scale well for large scale real life video surveillance data. Also, an integral component of these foreground detection algorithms is singular value decomposition which is nonrobust.</p>
+</li>
+</ol>
+<p>In this paper, we aim to introduce a scalable, fast, efficient and robust singular value decomposition technique based on the popular minimum density power divergence estimator which naturally extends to a background modelling algorithm. We call this algorithm <code>rSVDdpd</code>. We also demonstrate the superiority of our proposed algorithm on a benchmark dataset (Background Models Challenge or BMC Dataset) and a new real-life video surveillance dataset (University of Houston Camera Tampering or UHCT Dataset) in presence of camera tampering.</p>
+<h1 id="codes">Codes</h1>
+<ul>
+<li>The proposed <strong>rSVDdpd</strong> algorithm is made available in an <code>R</code> package <a href="https://cran.r-project.org/web/packages/rsvddpd/index.html"><code>rsvddpd</code></a>.</li>
+<li>A simple introductory tutorial for the package is also available in form of a vignette <a href="https://cran.r-project.org/web/packages/rsvddpd/vignettes/rSVDdpd-intro.html">Introduction to rSVDdpd</a>.</li>
+</ul>
+<h1 id="references">References</h1>
+<p>Following are some useful references on various algorithms for background modelling.</p>
+<ol>
+<li><a href="https://sites.google.com/site/backgroundsubtraction">Background Subtraction Website</a></li>
+<li><a href="https://github.com/andrewssobral/lrslibrary">Low-Rank and Sparse Tools for Background Modeling and Subtraction in Videos</a></li>
+<li><a href="http://backgroundmodelschallenge.eu/">Background Models Challenge Dataset</a></li>
+<li><a href="http://qil.uh.edu/main/datasets/">UHCTD: A Comprehensive Dataset for Camera Tampering Detection</a></li>
+</ol>
+
+    </div>
+
+    
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+        integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+        integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
