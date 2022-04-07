@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>UHCT Dataset on rSVDdpd Website</title>
-    <link>http://example.org/uhctd/</link>
+    <link>https://subroy13.github.io/rsvddpd-home/uhctd/</link>
     <description>Recent content in UHCT Dataset on rSVDdpd Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/uhctd/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://subroy13.github.io/rsvddpd-home/uhctd/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Stream 1</title>
-      <link>http://example.org/uhctd/stream1/</link>
+      <link>https://subroy13.github.io/rsvddpd-home/uhctd/stream1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/uhctd/stream1/</guid>
+      <guid>https://subroy13.github.io/rsvddpd-home/uhctd/stream1/</guid>
       <description>Video Stream 1 comprises of a small part of the video surveillance footage in Day 2 from Camera B in the UHCT Dataset. Some of the frames have been tampered with random image partially. It demonstrates the effect of these camera tampering on the estimated foreground.</description>
     </item>
     
     <item>
       <title>Stream 2</title>
-      <link>http://example.org/uhctd/stream2/</link>
+      <link>https://subroy13.github.io/rsvddpd-home/uhctd/stream2/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/uhctd/stream2/</guid>
+      <guid>https://subroy13.github.io/rsvddpd-home/uhctd/stream2/</guid>
       <description>Video Stream 2 comprises of a small part of the nighttime video surveillance footage in Day 1 from Camera A in the UHCT Dataset. Some of the frames have been tampered with random image partially. It demonstrates the effect of these camera tampering on the estimated foreground in the gray colour scale.</description>
     </item>
     
     <item>
       <title>Stream 3</title>
-      <link>http://example.org/uhctd/stream3/</link>
+      <link>https://subroy13.github.io/rsvddpd-home/uhctd/stream3/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/uhctd/stream3/</guid>
+      <guid>https://subroy13.github.io/rsvddpd-home/uhctd/stream3/</guid>
       <description>Video Stream 3 comprises of a small part of a daytime video surveillance footage in Day 1 from Camera A in the UHCT Dataset. Some of the frames have been tampered with random image partially. There is also presence of change in intensity and illumination due to the position of the sun.</description>
     </item>
     
     <item>
       <title>Stream 4</title>
-      <link>http://example.org/uhctd/stream4/</link>
+      <link>https://subroy13.github.io/rsvddpd-home/uhctd/stream4/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/uhctd/stream4/</guid>
+      <guid>https://subroy13.github.io/rsvddpd-home/uhctd/stream4/</guid>
       <description>Video Stream 4 comprises of a small part of a daytime video surveillance footage in Day 2 from Camera A in the UHCT Dataset. After some time, the camera has been tampered by moving it to point in a different direction. A reliable foreground extraction and background modelling algorithm should be sensitive to this rapid change in background and should indicate the presence of camera tampering.</description>
     </item>
     

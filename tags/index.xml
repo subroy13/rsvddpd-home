@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on rSVDdpd Website</title>
-    <link>http://example.org/tags/</link>
+    <link>https://subroy13.github.io/rsvddpd-home/tags/</link>
     <description>Recent content in Tags on rSVDdpd Website</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://subroy13.github.io/rsvddpd-home/tags/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
